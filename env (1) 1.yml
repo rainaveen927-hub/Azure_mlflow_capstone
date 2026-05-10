@@ -1,0 +1,14 @@
+name: loan-default-env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - scikit-learn
+      - pandas
+      - numpy
+      - joblib
+      - fastapi
+      - uvicorn
+      - mlflow
